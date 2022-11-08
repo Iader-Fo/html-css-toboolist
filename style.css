@@ -35,22 +35,38 @@ main{
     background-color: white;
     margin-top: 20px;
     padding-left: 40px;
-    padding-top: 12px;
+    padding-top: 14px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
    
 }
 
-#task{
+#task, #section{
     vertical-align: middle;
+    border-radius: 5px;
+    padding: 4px 4px;
+    font-size: 0.5em;
+
+}
+
+#task{
+    color: white;
+    background-color: #47adf1;
+    border-color: transparent;
+
 }
 
 #section{
-    vertical-align: middle;
+    color: #c6ccd1;
+    background-color: white;
+    border-color: #c6ccd1;
+
 }
 
 .list{
     padding: 20px;
     padding-left: 40px;
-    margin-top: 5px;
+    margin-top: 2px;
     background-color: white;
 }
 
@@ -58,10 +74,58 @@ h3::before{
     content: '\2BC6';
 }
 
-#do_it::before{
+.do_it::before{
     content: '\1F5F8'
 }
 
-#nope::before{
+.nope::before{
     content: '\10102'
+}
+
+.tag_blue{
+    color: white;
+    background-color: #45abe9;
+    padding: 5px;
+    font-size: 0.5em;
+    border-radius: 8px;
+}
+
+.tag_violet{
+    color: white;
+    background-color: #9c72e4;
+    padding: 5px;
+    font-size: 0.5em;
+    border-radius: 8px;
+} 
+
+.tag_green{
+    color: white;
+    background-color: #64c0a9;
+    padding: 5px;
+    font-size: 0.5em;
+    border-radius: 8px;
+}
+
+.tag_orange{
+    color: white;
+    background-color: #f29e33;
+    padding: 5px;
+    font-size: 0.5em;
+    border-radius: 8px;
+}
+ 
+.tag_pink{
+    color: white;
+    background-color: #d863a0;
+    padding: 5px;
+    font-size: 0.5em;
+    border-radius: 8px;
+}
+
+.tag_yellow{
+    color: white;
+    background-color: #b0c926;
+    padding: 5px;
+    font-size: 0.5em;
+    border-radius: 8px;
 }
