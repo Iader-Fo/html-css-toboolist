@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: grey;
+    background-color: #f6f8f9;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -17,6 +18,7 @@ header{
 main{
     width: 70%;
     margin: 0 auto;
+    padding-top: 20px;
 }
 
 #logo{
@@ -28,6 +30,7 @@ main{
 #title{
     display: inline-block;
     vertical-align: middle;
+    font-weight: bolder;
 }
 
 .add{
@@ -44,16 +47,15 @@ main{
 #task, #section{
     vertical-align: middle;
     border-radius: 5px;
-    padding: 4px 4px;
+    padding: 5px 11px;
     font-size: 0.5em;
-
 }
 
 #task{
     color: white;
     background-color: #47adf1;
     border-color: transparent;
-
+    margin-left: 10px;
 }
 
 #section{
@@ -68,18 +70,53 @@ main{
     padding-left: 40px;
     margin-top: 2px;
     background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+h3{
+    margin-bottom: 6px;
 }
 
 h3::before{
     content: '\2BC6';
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 0.8em;
+}
+
+p{
+    line-height: 20px;
+    font-weight: bold;
+    padding: 4px;
 }
 
 .do_it::before{
-    content: '\1F5F8'
+    display: inline-block;
+    content: '\1F5F8';
+    border: #86cfbe 1px solid;
+    color: #86cfbe;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 0.8em;
+    margin-right: 9px;
 }
 
 .nope::before{
-    content: '\10102'
+    display: inline-block;
+    content: '\10102';
+    border: red 1px solid;
+    color: red;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    margin-right: 9px;
 }
 
 .tag_blue{
@@ -129,3 +166,5 @@ h3::before{
     font-size: 0.5em;
     border-radius: 8px;
 }
+
+
