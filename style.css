@@ -4,3 +4,20 @@
     box-sizing: border-box;
 }
 
+header{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#logo{
+    width: 50px;
+    vertical-align: middle;
+
+}
+
+#title{
+    display: inline-block;
+    vertical-align: middle;
+
+}
