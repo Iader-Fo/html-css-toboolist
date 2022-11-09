@@ -1,0 +1,25 @@
+
+
+/* CREO UNA UL SOTTO UN ALTRA UL e ALL'ULTIMO
+LI DO UN "BEFORE" e "AFTER */
+
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+ul li li::before{
+    content: 'X';
+}
+
+h3::before{
+    content: 'Y';
+}
+
+ul li li::after{
+    content: 'ZZZZ';
+}

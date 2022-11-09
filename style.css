@@ -9,17 +9,13 @@ body{
 }
 
 header{
-    padding-top: 5px;
+    /* padding-top: 5px;
     padding-left: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 5px; */
+    padding: 5px 10px;
     background-color: white;
 }
 
-main{
-    width: 70%;
-    margin: 0 auto;
-    padding-top: 20px;
-}
 
 #logo{
     width: 50px;
@@ -32,6 +28,14 @@ main{
     vertical-align: middle;
     font-weight: bolder;
 }
+
+main{
+    width: 70%;
+    margin: 0 auto;
+    /* padding-top: 20px; */
+    padding: 20px;
+}
+
 
 .add{
     height: 40px;
@@ -49,6 +53,7 @@ main{
     border-radius: 5px;
     padding: 5px 11px;
     font-size: 0.5em;
+    border-style: solid;
 }
 
 #task{
@@ -62,7 +67,6 @@ main{
     color: #c6ccd1;
     background-color: white;
     border-color: #c6ccd1;
-
 }
 
 .list{
@@ -79,10 +83,10 @@ h3{
 }
 
 h3::before{
-    content: '\2BC6';
-    margin-right: 5px;
-    margin-left: 5px;
-    font-size: 0.8em;
+    content: '\23F7'    ;
+    margin-right: 2px;
+    margin-left: 3px;
+    /* font-size: 0.8em; */
 }
 
 p{
@@ -107,7 +111,7 @@ p{
 
 .nope::before{
     display: inline-block;
-    content: '\10102';
+    content: 'X';
     border: red 1px solid;
     color: red;
     border-radius: 50%;
@@ -115,7 +119,7 @@ p{
     width: 15px;
     line-height: 20px;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.7em;
     margin-right: 9px;
 }
 
